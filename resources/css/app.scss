@@ -48,7 +48,7 @@ blockquote {
     border-left: 0.25em solid;
     margin: 1.5em 0;
     line-height: 1.6;
-    @apply border-l-indigo-700 bg-indigo-100 p-4 md:text-xl;
+    @apply border-l-indigo-700 bg-indigo-100 p-4 md: text-xl;
 }
 
 a {
@@ -65,5 +65,5 @@ strong {
 }
 
 ::selection {
-    @apply bg-indigo-700 text-white;
+    @apply bg-indigo-700 text-indigo-700 bg-opacity-10;
 }
