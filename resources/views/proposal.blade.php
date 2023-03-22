@@ -7,8 +7,25 @@ use Illuminate\Support\Str;
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Proposal: Let's build true democracy</title>
     @vite(["resources/css/app.scss"])
+    <!-- Primary Meta Tags -->
+    <title>Proposal: Let's build true democracy</title>
+    <meta name="title" content="Proposal: Let's build true democracy">
+    <meta name="description" content="true-democracy.org («TD») will be the truest form of open-source platform to collect signatures and supporters for open-letters, petitions and calls to action.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://true-democracy.org/proposal">
+    <meta property="og:title" content="Proposal: Let's build true democracy">
+    <meta property="og:description" content="true-democracy.org («TD») will be the truest form of open-source platform to collect signatures and supporters for open-letters, petitions and calls to action.">
+    <meta property="og:image" content="{{url("og.jpg")}}">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://true-democracy.org/proposal">
+    <meta property="twitter:title" content="Proposal: Let's build true democracy">
+    <meta property="twitter:description" content="true-democracy.org («TD») will be the truest form of open-source platform to collect signatures and supporters for open-letters, petitions and calls to action.">
+    <meta property="twitter:image" content="{{url("og.jpg")}}">
 </head>
 <body>
 
